@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-starter-template/nx-starter-template-data-access-db": [
+        "libs/nx-starter-template/data-access-db/src/index.ts"
+      ],
+      "@nx-starter-template/nx-starter-template-utils-env": [
+        "libs/nx-starter-template/utils-env/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
