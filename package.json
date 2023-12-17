@@ -2,7 +2,11 @@
   "name": "@nx-starter-template/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev": "pnpm dlx concurrently --kill-others \"npm:dev:client\" \"npm:dev:server\"",
+    "dev:client": "pnpm nx run nx-starter-template-client:serve",
+    "dev:server": "pnpm nx run nx-starter-template:serve"
+  },
   "prisma": {
     "schema": "libs/nx-starter-template/data-access-db/src/lib/prisma/schema.prisma"
   },
@@ -13,6 +17,8 @@
     "@nestjs/platform-express": "^10.0.2",
     "@prisma/client": "^5.7.0",
     "@t3-oss/env-core": "^0.7.1",
+    "@ts-rest/core": "^3.30.5",
+    "@ts-rest/nest": "^3.30.5",
     "axios": "^1.0.0",
     "next": "14.0.4",
     "react": "18.2.0",
