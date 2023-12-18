@@ -63,3 +63,7 @@ We welcome contributions! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) fil
 ## License
 
 This project is licensed under the [License Name] - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+Email: [mike.gurin21@gmail.com](mailto:mike.gurin21@gmail.com)
+
