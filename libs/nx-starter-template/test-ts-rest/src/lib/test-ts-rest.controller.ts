@@ -10,19 +10,16 @@ import {
 
 const c = nestControllerContract(TestTsRestRoute);
 type RequestShape = NestRequestShapes<typeof c>;
+
 /**
- * Controller for handling REST requests in the TestTsRest module.
+ * Controller for handling REST requests related to TestTsRest.
  */
 @Controller()
 export class TestTsRestController implements NestControllerInterface<typeof c> {
-  constructor() {
-    console.log('TestTsRest');
-  }
-
   /**
-   * Retrieves a message with a personalized greeting.
-   * @param displayName - The display name to include in the greeting message.
-   * @returns An object containing the HTTP status code and the message body.
+   * Retrieves a message with the provided display name.
+   * @param displayName - The display name to include in the message.
+   * @returns An object containing the status and body of the response.
    */
   @TsRest(c.getMessage)
   async getMessage(
