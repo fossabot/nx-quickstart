@@ -2,6 +2,18 @@
 
 Welcome to NxStarterTemplate, a comprehensive starter template that integrates Nx, NestJS, Next.js, Prisma, and Typesafe REST using Ts-rest within a monorepo structure. This workspace empowers developers with a smart monorepo setup for efficient development and fast Continuous Integration (CI).
 
+# Important
+This starter template is under continuous development. Stay up-to-date with our latest updates and get the most out of it!
+
+
+## Key features
+1. Build on top of Nx
+2. Next JS integration
+3. Nest JS integration
+4. Prisma integration
+5. Typesafe backend access using [Ts-Rest](https://ts-rest.com/)
+6. Typesafe and validation out of the box of enviroment variables using `@t3-oss/env-core`
+
 ## Start the app
 
 1. Clone the repository `git clone <remote-url>`
