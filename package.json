@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "pnpm dlx concurrently --kill-others \"npm:dev:client\" \"npm:dev:server\"",
-    "dev:client": "pnpm nx run nx-starter-template-client:serve",
-    "dev:server": "pnpm nx run nx-starter-template:serve"
+    "dev": "npx concurrently --kill-others \"npm:dev:client\" \"npm:dev:server\"",
+    "dev:client": "npx nx run nx-starter-template-client:serve",
+    "dev:server": "npx nx run nx-starter-template:serve"
   },
   "prisma": {
     "schema": "libs/nx-starter-template/data-access-db/src/lib/prisma/schema.prisma"
