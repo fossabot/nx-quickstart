@@ -1,4 +1,6 @@
 # <img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="50" height="40" /> quickstart
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FMikeXado%2Fnx-quickstart.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FMikeXado%2Fnx-quickstart?ref=badge_shield)
+
 
 Welcome to NxStarterTemplate, a comprehensive starter template that integrates Nx, NestJS, Next.js, Prisma, and Typesafe REST using Ts-rest within a monorepo structure. This workspace empowers developers with a smart monorepo setup for efficient development and fast Continuous Integration (CI).
 
@@ -73,6 +75,8 @@ We welcome contributions! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) fil
 
 This project is licensed under the [License Name] - see the [LICENSE](LICENSE) file for details.
 
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FMikeXado%2Fnx-quickstart.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FMikeXado%2Fnx-quickstart?ref=badge_large)
+
 ## Contact
 Email: [mike.gurin21@gmail.com](mailto:mike.gurin21@gmail.com)
-
