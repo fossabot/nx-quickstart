@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="50" height="40" /> Start template
+# <img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="50" height="40" /> quickstart
 
 Welcome to NxStarterTemplate, a comprehensive starter template that integrates Nx, NestJS, Next.js, Prisma, and Typesafe REST using Ts-rest within a monorepo structure. This workspace empowers developers with a smart monorepo setup for efficient development and fast Continuous Integration (CI).
 
