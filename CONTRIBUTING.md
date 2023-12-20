@@ -1,4 +1,4 @@
-# Contributing to [Project Name]
+# Contributing to nx-starter-template
 
 Thank you for considering contributing to this project! We welcome contributions from everyone. Please take a moment to review this document to make the contribution process smooth and effective for everyone involved.
 
