@@ -15,12 +15,9 @@ This starter template is under continuous development. Stay up-to-date with our 
 6. Typesafe and validation out of the box of enviroment variables using `@t3-oss/env-core`
 
 ## Start the app
-
-1. Clone the repository `git clone <remote-url>`
-2. Install `pnpm` package manager on your system (you can skip this step if you plan using another package manager. Keep in mind that you should adjust `package.json` scripts as well)
-3. Install all required dependencies `pnpm install`
-4. To start the development server run `pnpm run dev`.
-5. Open your browser and navigate to http://localhost:4200/. Happy coding!
+```bash
+npx nx-quickstart@latest init
+```
 
 ## Generate code
 
